@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+    <head><script src="scripts/jquery-3.5.1.min.js"></script>
+        <script src="scripts/hospitals.js"></script>
+<link rel="stylesheet" href="css/style.css">
+    <style>
+	body {
+  		background-color: lightblue;
+	}
+    </style>
+    <style>
+	/* Style the body */
+	body {
+  		font-family: Arial;
+  		margin: 0;
+	}
+
+	/* Header/Logo Title */
+	.header {
+  		padding: 60px;
+  		text-align: center;
+  		background: lightblue;
+  		color: white;
+  		font-size: 30px;
+	}
+
+	/* Page Content */
+	.content {padding:20px;}
+    </style>
+    <style>
+	table {
+  		border-collapse: collapse;
+  		border-spacing: 100;
+  		width: 100%;
+  		border: 10px solid #ddd;
+	}
+
+	th, td {
+  		text-align: left;
+  		padding: 18px;
+	}
+
+	tr:nth-child(even){background-color: #f2f2f2}
+    </style>
+    <style>
+	
+    </style>
+<nav>
+      <div class="logo"><div><a href="index.html"><img src="logo.png" alt="logo"/></a></div>   India Vs Corona</div>
+      <label for="btn" class="icon">
+        <span class="fa fa-bars"></span>
+      </label>
+      <input type="checkbox" id="btn">
+      <!----<div class="navbar">--->
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li>
+          <label for="btn-1" class="show">Contact And Helpline</label>
+          <a href="statehelpline.html">Contact And Helpline</a>
+          <input type="checkbox" id="btn-1">
+        </li>
+        <li>
+          <label for="btn-2" class="show">Notification & Advisory</label>
+          <a href="notifadvis.html">Notification & Advisory</a>
+          <input type="checkbox" id="btn-2">
+        </li>
+        <li>
+    <label for="btn-3" class="show">Hospital DashBoard</label>
+    <a href="#">Hospital DashBoard</a>
+    <input type="checkbox" id="btn-3">
+          <ul>
+            <li><a href="hospitals.html">Hospital Beds</a></li>
+            <li><a href="medicalcolleges.html">College Beds</a></li>
+      	</ul>
+	 </li>
+	 <li>
+		<label for="btn-4" class="show">Comparison</label>
+		<a href="chart.html">Comparison</a>
+		<input type="checkbox" id="btn-4">
+<ul>
+            <li><a href="chart.html">Daily sample Test</a></li>
+            <li><a href="chart.html">Confirmed Cases</a></li>
+      	</ul>
+	  </li>
+     <!--</div>-->
+     </nav>
+    </head>
+    <body>
+	<div class="header">
+	<h1>Hospital Beds</h1>
+	<p>Capacity Building Measures In Hospitals In the Number Of Beds Is Given Below</p>
+	</div>
+	<div class="content">       
+        <table id = "hospitals">
+            <tr><th>State Name</th>
+                <th>Rural Hospitals</th>
+                <th>Rural Beds</th>
+                <th>Urban Hospitals</th>
+                <th>Urban Beds</th>
+                <th>Total Hospitals</th>
+                <th>Total Beds(State Wise)</th>
+            </tr>
+        </table>
+	</div>
+    
+    </body>
+</html>
