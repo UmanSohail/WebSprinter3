@@ -93,7 +93,7 @@ nav ul ul ul li{
   top: -60px;
   left: 150px;
 }
-.show,.icon,input{
+.show,.icon,nav input{
   display: none;
 }
 .fa-plus{
