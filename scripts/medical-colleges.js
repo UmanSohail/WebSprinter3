@@ -28,8 +28,7 @@ $(document).ready(function(){
                 $.each($("ul.type input[type=checkbox]:checked"), function(){
                     uniqueTypes.push($(this).val());
                 });
-                alert("My favourite sports are: " + uniqueStates.join(", ")+ "facourite types are"+uniqueTypes.join(", "));
-
+                
                 var uniqueStates= uniqueStates.filter((v, i, ax) => ax.indexOf(v) === i); 
                 var uniqueTypes= uniqueTypes.filter((v, i, ax) => ax.indexOf(v) === i); 
 
